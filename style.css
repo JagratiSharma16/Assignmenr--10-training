@@ -1,0 +1,46 @@
+body{
+    background: linear-gradient(rgb(199, 174, 174), rgba(0, 0, 0, 0.0)), url(wood3.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    padding: 10px 60px;
+    border-bottom: 4px solid grey;
+    text-align: center;
+}
+
+.header h1{
+    font-size: 40px;
+    font-weight: 700;
+    text-decoration: underline;
+    color: rgb(98, 91, 228);
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(0, 225, 255);
+    background-color: rgba(165, 203, 191, 0.641);
+    padding: 20px 40px;
+    margin-top: 50px;
+    margin-left: 600px;
+    margin-right: 600px;
+}
+
+.todo{
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    gap: 10px;
+    font-size: 30px;
+    color: rgb(84, 19, 148);
+}
+
+.cut{
+    text-decoration: line-through;
+}
